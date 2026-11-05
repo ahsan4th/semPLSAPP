@@ -1,0 +1,15 @@
+[runner]
+magicEnabled = false
+
+[theme]
+base = "light"
+primaryColor = "#2f6fdb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f7fb"
+textColor = "#13213c"
+
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false

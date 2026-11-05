@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Editor model SEM-PLS</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
+  #pls-root { height: 680px; border: 1px solid #dfe5ee; border-radius: 8px; overflow: hidden; background: #fff; }
+  .ple-host { height: 100%; }
+  /* ikon tanpa Font Awesome: simbol Unicode */
+  i[class*="fa-"] { font-style: normal; display: inline-block; min-width: 1em; text-align: center; font-weight: 600; line-height: 1; }
+  .fa-mouse-pointer::before { content: "\2196"; }
+  .fa-circle::before { content: "\25EF"; }
+  .fa-long-arrow-alt-right::before { content: "\27F6"; }
+  .fa-undo::before { content: "\21B6"; }
+  .fa-redo::before { content: "\21B7"; }
+  .fa-trash-alt::before { content: "\2715"; }
+  .fa-bolt::before { content: "\26A1\FE0E"; }
+  .fa-sitemap::before { content: "\25A4"; }
+  .fa-search-minus::before { content: "\2212"; }
+  .fa-search-plus::before { content: "+"; }
+  .fa-expand::before { content: "\2922"; }
+  .fa-image::before { content: "\25A3"; }
+  .fa-file-code::before { content: "</>"; font-size: 10px; }
+  .fa-eraser::before { content: "\232B"; }
+  .fa-check::before { content: "\2713"; }
+  .form-control, .form-select { border: 1px solid #cfd8e6; border-radius: 5px; padding: 3px 7px; font: inherit; font-size: 12.5px; box-sizing: border-box; }
+</style>
+</head>
+<body>
+<div id="pls-root" class="ple-host"></div>
+<script src="model-editor.js"></script>
+</body>
+</html>
