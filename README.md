@@ -1,4 +1,4 @@
-# SEM-PLS Studio (versi Streamlit)
+# SEM-PLS
 
 Aplikasi web untuk analisis PLS-SEM tanpa coding. Model digambar di kanvas seperti SmartPLS
 (seret indikator, tarik jalur antar konstruk), lalu klik Jalankan.
